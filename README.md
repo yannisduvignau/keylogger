@@ -18,10 +18,10 @@
 
 ### 4. Create a .gitignore file to avoid committing sensitive files
 ```bash
-    echo ".gitignore\nenv/\nrequirements.txt\n.env*\n*.log\n*.pcap" > .gitignore
+    echo ".gitignore\nenv/\nrequirements.txt\n.env*\n*.log" > .gitignore
 ```
 
-### 5. Run the sniffer
+### 5. Run the keylogger
 ```bash
     python3 main.py
 ```
